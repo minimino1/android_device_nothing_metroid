@@ -22,8 +22,7 @@
 export TARGET_ARCH="arm64"
 
 # About Us
-export FOX_VERSION="RTest1"
-export OF_MAINTAINER="Gigaachad"
+export OF_MAINTAINER="mini"
 export FOX_BUILD_TYPE="Stable"
 
 # Build Environment Stuff
@@ -34,6 +33,10 @@ export FOX_TARGET_DEVICES="Metroid,metroid"
 export TW_DEFAULT_LANGUAGE="en"
 export LC_ALL="C"
 export OF_OPTIONS_LIST_NUM=8
+export TARGET_SCREEN_WIDTH=1080
+export TARGET_SCREEN_HEIGHT=2412
+export TW_THEME="portrait_hdpi"
+
 
 # Use Magisk Boot for Patching
 export OF_USE_MAGISKBOOT=1
@@ -59,7 +62,7 @@ export OF_NO_TREBLE_COMPATIBILITY_CHECK=1
 export OF_FBE_METADATA_MOUNT_IGNORE=1
 export OF_PATCH_AVB20=1
 export FOX_USE_NANO_EDITOR=1
-export FOX_ENABLE_APP_MANAGER=0
+export FOX_ENABLE_APP_MANAGER=1
 export FOX_DELETE_AROMAFM=1
 export OF_DONT_PATCH_ON_FRESH_INSTALLATION=1
 export OF_FIX_OTA_UPDATE_MANUAL_FLASH_ERROR=1
@@ -73,7 +76,6 @@ export OF_DISABLE_MIUI_OTA_BY_DEFAULT=1
 export OF_DYNAMIC_FULL_SIZE=9122611200			# Changed
 
 # Quick Backup List
-export FOX_R11=1
 export OF_QUICK_BACKUP_LIST="/boot;/dtbo;/data;/system_image;/vendor_image;"
 
 # Add Some Extras
