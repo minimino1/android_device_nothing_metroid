@@ -38,6 +38,8 @@ COMMON_PATH := device/$(PRODUCT_BRAND)/$(PRODUCT_DEVICE)
 
 # Device path for OEM device tree
 DEVICE_PATH := device/$(PRODUCT_BRAND)/$(PRODUCT_DEVICE)
+PRODUCT_COPY_FILES += \
+    device/nothing/metroid/recovery/root/vendor/lib64/libminkdescriptor.so:recovery/root/vendor/lib64/libminkdescriptor.so
 
 # Inherit from hardware-specific part of the product configuration
 $(call inherit-product, $(DEVICE_PATH)/device-$(PRODUCT_DEVICE).mk)
