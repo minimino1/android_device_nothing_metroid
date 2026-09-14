@@ -38,9 +38,7 @@ COMMON_PATH := device/$(PRODUCT_BRAND)/$(PRODUCT_DEVICE)
 
 # Device path for OEM device tree
 DEVICE_PATH := device/$(PRODUCT_BRAND)/$(PRODUCT_DEVICE)
-PRODUCT_COPY_FILES += \
-    device/nothing/Metroid/twrp/recovery/root/vendor/lib64/libminkdescriptor.so:twrp/recovery/root/vendor/lib64/libminkdescriptor.so
-    device/nothing/Metroid/twrp/recovery/root/vendor/lib64/libqcbor.so:twrp/recovery/root/vendor/lib64/libqcbor.so
+
 
 # Inherit from hardware-specific part of the product configuration
 $(call inherit-product, $(DEVICE_PATH)/device-$(PRODUCT_DEVICE).mk)
