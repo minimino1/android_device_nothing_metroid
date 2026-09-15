@@ -25,7 +25,7 @@
 
 # SDK
 BOARD_SYSTEMSDK_VERSIONS := 31
-
+TARGET_USES_VINTF := false
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a-branchprot
