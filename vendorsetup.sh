@@ -20,7 +20,7 @@
 
 # Target Architecture
 export TARGET_ARCH="arm64"
-
+export OF_SKIP_FBE_DECRYPTION=1
 # About Us
 export OF_MAINTAINER="mini"
 export FOX_BUILD_TYPE="Stable"
